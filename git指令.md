@@ -17,3 +17,10 @@ git push origin
 git push  
 - 如果当前分支与多个远端分支存在追踪关系，则可以使用-u选项指定一个默认的远端分支，这样后面就可以不加任何参数使用git push。  
 git push -u origin master  
+
+## git pull  
+git pull <远程主机名> <远程分支名>:<本地分支名>  
+git pull origin main:master  
+git pull和git clone的差别  
+- git pull 必须连接远程仓库才能用，可以用于下载完整代码更新本地代码  
+- git clone 只要你想往本地下载远程仓库的代码就可以用，不用连接远程仓库（连接了也可以），不适用更新本地代码  
